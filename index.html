@@ -17,40 +17,42 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-brand roboto" aria-current="page" href="#">Contato</a>
+              <a class="nav-brand roboto" aria-current="page" href="#">contato</a>
               <a class="nav-brand roboto" href="#">Sobre mim</a>
-              <a class="nav-brand roboto" href="#Produtos">Produtos</a>
+              <a class="nav-brand roboto" href="#produtos">produtos</a>
               <a class="nav-brand roboto" href="#">Assinaturas</a>
             </div>
           </div>
         </div>
     </nav>
-    <div id="Produtos roboto">
-        <h1>Produtos</h1>
+    <div id="produtos roboto">
+        <h1>produtos</h1>
     </div>
-    <div id="Produtos">
+    <div id="produtos">
         <div class="card" style="width: 18rem;">
-            <img src="Images/Tapete.jpg" class="card-img-top" alt="...">
+            <img src="Images/Tapete.jpg" class="card-img-top" alt="./Images/Tapete.jpg">
             <div class="card-body">
-            <h5 class="card-title">Tapete</h5>
-            <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
+              <h5 class="card-title">Tapete</h5>
+              <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
+            </div>
         </div>
-    </div>
-            <div class="card" style="width: 18rem;">
-            <img src="Images/Tapete.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Tapete</h5>
-            <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
-        </div>
-    </div>
-            <div class="card" style="width: 18rem;">
-            <img src="Images/Tapete.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Tapete</h5>
-            <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
-        </div>
-    </div>
-    <div id="Contato">
+    
+      <div class="card" style="width: 18rem;">
+              <img src="Images/Tapete.jpg" class="card-img-top" alt="./Images/Tapete.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Tapete</h5>
+                <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
+              </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+              <img src="Images/Tapete.jpg" class="card-img-top" alt="./Images/Tapete.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Tapete</h5>
+                <p class="card-text">Tapete com tecnologia da Coreia do Sul</p>
+              </div>
+      </div>
+    </div> 
+    <div id="contato">
       <form class="roboto">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Mensagem</label>
@@ -68,7 +70,7 @@
           <label class="form-check-label" for="exampleCheck1">Receber cópia por email</label>
         </div>
 
-        <button type="submit" class="btn btn-primary>Entre em Contato</button>
+        <button type="submit" class="btn btn-primary">Entre em contato</button>
       </form>
     </div>
     <div id="planos" class="roboto">
@@ -92,8 +94,55 @@
         <div class="card-body">
           <h5 class="card-title titulo-plano titulo-plano-blue">Pro</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            a href="#" class="btn btn-primary">Buy</a>
+            <a href="#" class="btn btn-primary">Buy</a>
+        </div>
       </div>
     </div>
+    <div id="sobre">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/Tapete.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Tapete.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Tapete.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div id="rodape" class=" roboto ">
+        Desenvolvido por <a href="github.com/joaojung" id="rodape-text">Alguém que não é um elefante</a>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>

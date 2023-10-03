@@ -1,4 +1,4 @@
-#Produtos{
+#produtos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,18 +6,18 @@
     padding: 10px;
 }
 
-#Produtos div{
+#produtos div{
     margin: 10px;
 }
 
-#Contato{
+#contato{
     display: flex;
     justify-content: center;
     margin-top: 100px;
     background: linear-gradient(45deg, #FFEDE6,#E8D4D1 );
     padding: 100px;
 }
-#Contato form{
+#contato form{
     width: 500px;
     color: white;
 }
@@ -30,4 +30,82 @@ nav{
     background: linear-gradient(45deg,#FFEDE6,#E8D4D1);
     position: fixed;
     top: 0;
+}
+
+#planos{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#planos div{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#carouselExampleCaptions{
+    background: linear-gradient(45 deg,#FFEDE6,#E8D4D1 );
+    border-radius: 16px;
+}
+
+#sobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#rodape-text{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+#rodape{
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+    background: linear-gradient(45deg,#FFEDE6,#E8D4D1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-produtos{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-sucess{
+    background-color: blue;
+}
+
+.titulo-plano{
+    font-style: italic;
+    font-size: 34px;
+}
+
+.titulo-plano-red{
+    background-image: linear-gradient(to right, blue 10%,red 30%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.titulo-plano-green{
+    background-image: linear-gradient(45deg, blue 10%, rgb(71, 204, 9));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.titulo-plano-blue{
+    background-image: linear-gradient(to right, blue 50%, red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
